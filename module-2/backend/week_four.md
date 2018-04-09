@@ -51,7 +51,7 @@ holidays = [
  {holiday: {name: "Hanukkah", supplies: ["Menorah"]}
 ]
 ```
-* holidays.sort_by { |holiday|[:holiday][:name] }
+* holidays.sort_by { |:holiday| [:name] }
 
 14. How would you clean incoming data to ensure "$300" or "300.00" is stored as 300?
 
